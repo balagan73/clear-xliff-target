@@ -21,7 +21,7 @@ if (isset($argv[1])) {
       $offset = $close;
       $file = str_replace($search, $lead, $file);
     } // end of while
-    file_put_contents($argv[1] . "cleared", $file);
+    file_put_contents($argv[1] . ".cleared", $file);
   }
 
 }
